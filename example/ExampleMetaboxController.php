@@ -54,7 +54,7 @@ class ExampleMetaboxController extends PSMFieldsMetabox
             )
             ->addCheckboxField( // Store string 1 or 0 in database
                 'prefix_checkbox_field', // Unique post_meta key
-                esc_html__('Example select field', 'textdomain'),
+                esc_html__('Example checkbox field', 'textdomain'),
                 esc_html__('Example description for checkbox field', 'textdomain') // Optional
             )
             ->addImageUploaderField( // Store image attachment id in database
