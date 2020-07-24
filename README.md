@@ -27,6 +27,6 @@ The PSM Fields library is licensed under the GPL v2 or later.
 * Log errors in multiple files
 * Write unit tests
 
-#### Example preview:
+## Example preview:
 
 ![Example preview](https://github.com/AleksandarPredic/psm-fields/blob/master/example/example-metabox.jpg)
