@@ -1,0 +1,129 @@
+/* Global styles */
+.psmfields__field {
+	margin: 0 0 10px 0;
+	padding: 5px;
+}
+
+.psmfields__field__description {
+	margin: 5px 0 0 0;
+	color: #666;
+	clear: both;
+	display: block;
+}
+
+/* Input text field */
+.psmfields__field--input-text input,
+.psmfields__field--input-text label {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+/* Input textarea field */
+.psmfields__field--textarea label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.psmfields__field--textarea textarea {
+	max-width: 450px;
+	width: 100%;
+	display: block;
+}
+
+/* Input editor field */
+.psmfields__field--wp-editor label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+/* Checkbox field */
+.psmfields__field--checkbox input,
+.psmfields__field--checkbox label {
+	line-height: 16px;
+	margin: 0;
+}
+
+.psmfields__field--checkbox input[type="checkbox"] {
+	height: 16px;
+	width: 16px;
+}
+
+/* Image uploader */
+.psmfields__field--image-uploader label {
+	display: inline-block;
+	clear:both;
+	margin: 0 0 5px 0;
+}
+
+.psmfields__field--image-uploader .psmfields__uploader-preview {
+	max-width: 100%;
+	margin: 0 0 5px 0;
+}
+
+.psmfields__field--image-uploader .psmfields__uploader-preview img {
+	width: auto !important;
+	height: 50px !important;
+}
+
+/* Repeater field */
+.psmfields__field--repeater {
+	margin: 20px 0;
+}
+
+.psmfields__field--repeater > h4 {
+	font-size: 18px;
+	line-height: 1.1;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
+
+.psmfields__field--repeater > .psmfields__field__description {
+	margin-bottom: 20px;
+}
+
+.psmfields__repeater-group {
+	min-height: 100px;
+	margin: 10px 0;
+	padding: 10px 50px 5px 5px;
+	position: relative;
+	border: 1px solid #666;
+}
+
+.psmfields__repeater-remove {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	display: block;
+	padding: 2px;
+	line-height: 1 !important;
+	transition: opacity 0.25s;
+}
+
+.psmfields__repeater-remove:hover {
+	opacity: 0.5;
+}
+
+.psmfields__repeater-down,
+.psmfields__repeater-up {
+	position: absolute;
+	right: 10px;
+	display: block;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	transition: opacity 0.25s;
+}
+
+.psmfields__repeater-up {
+	top: 10px;
+}
+
+.psmfields__repeater-down {
+	top: 45px;
+}
+
+.psmfields__repeater-down:hover,
+.psmfields__repeater-up:hover {
+	opacity: 0.5;
+}

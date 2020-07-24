@@ -1,0 +1,21 @@
+{
+  "name": "predic/psm-fields",
+  "description": "Predic simple meta fields library",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Aleksandar Predic",
+      "email": "info@acapredic.com"
+    }
+  ],
+  "require": {
+    "php" : ">=7.0.0",
+    "ext-json" : "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PSMFields\\" : "src/"
+    }
+  }
+}
