@@ -75,9 +75,11 @@ class SelectSingleFieldController extends FieldsController
 
         $output = [];
         foreach ($registeredOptions as $value => $text) {
+            $value = self::sanitizeValue($value);
+
             $output[] = sprintf(
                 '<option value="%1$s"%2$s>%3$s</option>',
-                self::sanitizeValue($value),
+                $value,
                 $this->value === $value ? ' selected="selected"' : '',
                 esc_html($text)
             );

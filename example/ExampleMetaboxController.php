@@ -44,11 +44,11 @@ class ExampleMetaboxController extends PSMFieldsMetabox
                 'prefix_select_field', // Unique post_meta key
                 esc_html__('Example select field', 'textdomain'),
                 [
-                    // Key is the value that is saved in database
+                    // Key is the value that is saved in database and will be converted to string
                     '' => esc_html__('None', 'textdomain'),
-                    'value1' => esc_html__('First value', 'textdomain'),
-                    'value2' => esc_html__('Second value', 'textdomain'),
-                    'value3' => esc_html__('Third value', 'textdomain'),
+                    1 => esc_html__('First value', 'textdomain'),
+                    2 => esc_html__('Second value', 'textdomain'),
+                    3 => esc_html__('Third value', 'textdomain'),
                 ],
                 esc_html__('Example description for select field', 'textdomain') // Optional
             )

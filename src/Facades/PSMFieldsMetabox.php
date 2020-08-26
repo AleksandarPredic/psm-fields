@@ -152,6 +152,7 @@ abstract class PSMFieldsMetabox implements FacadeInterface, FacadeExternalUsageM
      * @param string $name Select field name
      * @param string $title Select field title
      * @param array $options Array of options in format [value => text, value2 => text2]
+ *                           The key will always be converted to string
      * @param string $description Field description
      * @return PSMFieldsMetabox
      */
